@@ -1,2 +1,2 @@
 # HTML
-Primeiros passo em linguagem de marcação CSS.
+Primeiros passo em linguagem de marcação HTML.
