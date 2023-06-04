@@ -1,2 +1,2 @@
 # HTML
-Meus estudos em HTML.
+Primeiros passo em linguagem de marcação CSS.
