@@ -7,7 +7,6 @@
 
 // COLETANDO DADOS ATRAVES DE UM ATRIBUTO NO HTML
 
-
 let l_lista = document.querySelector('ul#lista');
 let l_num = parseInt(l_lista.getAttribute('num'));
 
@@ -19,7 +18,7 @@ for(var i = 0; i <= l_num; i++){
 
 l_lista.innerHTML = l_conteudo;
 
-//Utilizando a propriedade DATASET para coletar os dados de um atributo
+//Utilizando a propriedade DATASET para coletar os dados de um atributo HTML
 
 let l_list = document.querySelector('ul#list');
 let l_numdata = parseInt(l_list.dataset.num);
