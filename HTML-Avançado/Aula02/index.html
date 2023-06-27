@@ -3,9 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/sytle.css">
+
         <title> Aula02 | Video </title>
     </head>
     <body>
-        <video controls width="600" src="video/Video.mp4"></video>
+        <div class="container">
+            <video class="video" id="video1" src="video/Video.mp4"></video>
+
+            <div class="control">
+                <img class="btn" onclick="btnBack()" src="icons/botao-retorna.png" alt="" srcset="">
+                <img class="btn" onclick="btnAdvance()" src="icons/botao-avanca.png" alt="" srcset="">
+                <img class="btn" onclick="btnSlow()" src="icons/retroceder.png" alt="" srcset="">
+                <img class="btn" onclick="btnSpeed()" src="icons/avanco-rapido.png" alt="" srcset="">
+                <img class="btn" onclick="btnPlay()" src="icons/botao-play.png" alt="" srcset="">
+                <img class="btn" onclick="btnStop()" src="icons/botão-stop.png" alt="" srcset="">
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
     </body>
 </html>
